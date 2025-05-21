@@ -139,7 +139,7 @@ The frontend is located in the `/frontend` folder and powered by React + Vite.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/wisp-chat-app.git
+git clone https://github.com/lenlo121500/wisp-chat-app.git
 cd wisp-chat-app
 ```
 
