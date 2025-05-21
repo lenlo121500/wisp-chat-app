@@ -1,0 +1,14 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A modern, real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js).   Featuring user authentication, real-time messaging with Socket.io, image uploads with Cloudinary, and a sleek frontend UI powered by React, TailwindCSS, and Zustand state management.",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
