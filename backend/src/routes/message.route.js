@@ -5,15 +5,13 @@ import {
   getUsersForSidebar,
   sendMessage,
 } from "../controllers/message.controller.js";
-import { validateRoutes } from "../validators/route.validator.js";
 
 const messageRouter = express.Router();
 
 messageRouter.use(protectRoute);
 
+messageRouter.get("/:id", getMessages);
 messageRouter.post("/send/:id", sendMessage);
 messageRouter.get("/users", getUsersForSidebar);
-messageRouter.get("/:id", getMessages);
 
-validateRoutes(messageRouter);
 export default messageRouter;
